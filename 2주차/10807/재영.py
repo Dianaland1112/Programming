@@ -1,9 +1,9 @@
-a = input()
-result=[]
-k=1
-for i in range(len(a)):
-    result.append(a[i])
-result.sort()
-result.reverse()
-for i in range(len(a)):
-    print(int(result[i]),end='')
+N = int(input())
+list = list(map(int,input().split()))
+list2 = list[:N]
+a = int(input())
+result=0
+for i in range(N):
+    if a==list[i]:
+        result = result+1
+print(result)
