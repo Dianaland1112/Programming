@@ -21,4 +21,4 @@ for _ in range(20):
         total += time * grade_dict[grade]
         total_time += time 
 
-print(f"{total / total_time:.6f}")
+print(f"{total / total_time:.6f}")   
