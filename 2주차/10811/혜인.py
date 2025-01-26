@@ -7,4 +7,4 @@ for i in range(m):
     basket[a-1:b] = temp
 
 for i in basket:
-    print(i, end=' ')
+    print(i, end=' ') 
