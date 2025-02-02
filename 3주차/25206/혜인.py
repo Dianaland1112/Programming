@@ -11,6 +11,7 @@ grade_dict = {
 }
 #grade = ["A+", "A0", "B+", "B0", "C+", "C0", "D+", "D0", "F"]
 #score_list = [4.5, 4.0, 3.5, 3.0, 2.5, 2.0, 1.5, 1.0, 0.0]
+
 total = 0  # 학점 * 과목평점의 합
 total_time = 0  # 총 학점
 for _ in range(20):
@@ -20,4 +21,5 @@ for _ in range(20):
         total += time * grade_dict[grade]
         total_time += time 
 
-print(f"{total / total_time:.6f}")
+print(f"{total / total_time:.6f}")   
+

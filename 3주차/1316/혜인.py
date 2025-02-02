@@ -9,5 +9,4 @@ for _ in range(s):
             total -=1
             breakpoint
 print(total)
-    
-    
+
