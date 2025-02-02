@@ -9,4 +9,4 @@ for i in range(0,b):
     list_index = list.index(a)
     total += ((B ** i) *  list_index)
 
-print(total) 
+print(total)  

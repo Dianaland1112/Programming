@@ -14,5 +14,5 @@ for _ in range(test_case):
     money %= 5
 
     p = money
-    print(q, d, n, p) 
+    print(q, d, n, p)  
     
