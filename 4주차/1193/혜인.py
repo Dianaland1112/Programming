@@ -12,7 +12,7 @@ while input1 - count > 0 :
 if count % 2 == 0:
     print(f"{input1}/{count - input1 + 1}")
 else:
-    print(f"{count - input1 + 1}/{input1}")
+    print(f"{count - input1 + 1}/{input1}") 
 
 
 

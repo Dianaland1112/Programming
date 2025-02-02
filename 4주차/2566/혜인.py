@@ -13,4 +13,4 @@ for i in range(9):
             max_value = table[i][j]
 
 print(max_value)
-print(max_r, max_c)
+print(max_r, max_c) 
