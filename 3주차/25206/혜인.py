@@ -22,3 +22,4 @@ for _ in range(20):
         total_time += time 
 
 print(f"{total / total_time:.6f}")   
+
