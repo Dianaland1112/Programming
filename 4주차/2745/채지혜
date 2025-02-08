@@ -1,0 +1,9 @@
+# 입력받기
+N, B = input().split()  # B진법 수 N과 진법 B 입력
+B = int(B)  # 진법을 정수로 변환
+
+# B진법 수 N을 10진수로 변환
+decimal_value = int(N, B)
+
+# 결과 출력
+print(decimal_value)
