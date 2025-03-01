@@ -1,0 +1,14 @@
+# 2839
+
+N = int(input()) # Nkg
+bongzi = 0 
+
+while N >= 0: # N=0 이상일때
+    if N % 5 == 0:  # 5kg로 나누어떨어질경우 
+        bongzi += (N // 5)  # 5kg 봉지 개수 추가
+        print(bongzi)  # 최소 봉지 개수
+        break
+    N -= 3  # 5로 나누어떨어지지 않으면 3kg 봉지를 사용(N-3 kg)
+    bongzi += 1  # 3kg 봉지를 사용했으므로 봉지 개수 증가
+else:
+    print(-1) # 5kg, 3kg 로 나누어떨어지지않으면 -1 출력

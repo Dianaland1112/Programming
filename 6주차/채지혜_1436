@@ -1,0 +1,13 @@
+# 1436
+
+N = int(input())  # N<=10,000인 자연수
+
+count = 0  # 몇 번째 666이 포함된 숫자?
+num = 666  # 666부터 시작
+
+while count < N:  # count가 N이 되면 종료
+    if '666' in str(num):  # 숫자에 '666'이 포함되면
+        count += 1  # count 1씩 증가
+    num += 1  # while 실행될 때마다, 숫자를 1씩 증가시키며 검사
+
+print(num - 1) #루프 종료시, num은 1 더해진 상태
